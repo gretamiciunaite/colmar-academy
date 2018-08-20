@@ -1,0 +1,207 @@
+html{
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+body {
+  line-height: 1;
+}
+
+h1 {
+  color: #808080;
+  font-size: 3rem;
+  font-weight: bold;
+}
+h2 {
+  color: #4a4a4a;
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.25rem;
+}
+a {
+  text-decoration: none;
+}
+/*Header*/
+header {
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  background-color: white;
+  border-bottom: solid 1px #c6c1c1;
+}
+header .content {
+  display: flex;
+  align-items: center;
+  padding: 0.5em;
+  font-size: 1.5rem;
+}
+#company-name {
+  flex-grow: 1;
+}
+#colmar {
+  color: #808080;
+  font-weight: bold;
+}
+#academy {
+  color: #c0c0c0;
+}
+.mobile-logo {
+  display: none;
+}
+header ul {
+  display: flex;
+  list-style: none;
+}
+header ul li a {
+  text-decoration: none;
+  color: black;
+  padding-left: 1em;
+}
+@media only screen and (max-width: 760px) {
+  #company-name {
+    display: none;
+  }
+  header ul {
+    display: none;
+  }
+}
+/*Main baner*/
+.main-banner h1 {
+  text-align: left !important;
+}
+.main-banner {
+  display: flex;
+  padding-top: 5.5rem;
+  background-color: #dcdcdc;
+}
+.main-banner img {
+  padding: 2em 1.5em;
+}
+.main-banner-sign-in {
+  align-self: center;
+  padding-right: 8rem;
+}
+.button {
+  border-radius: 0.25rem;
+  background-color: #4a4a4a;
+  color: white;
+  margin: 0.5rem auto;
+  text-align: center;
+  margin-top: 2rem;
+  padding: 0.5rem 1rem;
+}
+.main-banner-sign-in {
+  align-items: center;
+}
+/*Campus information section*/
+.campus-information-section {
+  display: flex;
+  background-color: white;
+}
+.campus-infomation-segment {
+  width: 40%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 2em 1.5em;
+}
+
+.second-column,
+.third-column,
+.forth-column {
+  display: flex;
+}
+.second-column .text-content,
+.third-column .text-content,
+.forth-column .text-content {
+  max-width: 65%;
+  height: auto;
+}
+.second-column .image-content,
+.third-column .image-content,
+.forth-column .image-content {
+  max-width: 35%;
+  height: auto;
+}
+.first-column {
+  padding: 2em 1.5em;
+  width: 60%;
+}
+/*Start learning section*/
+.header h1 {
+  padding-top: 2rem;
+  text-align: center;
+}
+.learning-section {
+  background-color: #dcdcdc;
+  align-content: center;
+}
+.learning-section-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2rem 2rem;
+
+}
+.text-content {
+  background-color: white;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  padding-left: 1rem;
+}
+.text-content span {
+  padding: 0.5rem auto;
+}
+.learning-section .learning-section-content .course {
+padding: 2rem 2rem;
+}
+/*Thesis Exhibition section*/
+
+.thesis-exhibit-section {
+  background-color: white;
+}
+.thesis-content {
+  display: flex;
+}
+.video.text-content {
+  width: 60%;
+}
+.thesis-exhibit-section.thesis-segment {
+  display: flex;
+}
+.thesis-segment {
+  padding-top: 2rem;
+  width: 40%;
+}
+.thesis-segment-one,
+.thesis-segment-two {
+  display: flex;
+}
+/*Footer*/
+footer {
+  background-color: #dcdcdc;
+  padding: 2rem 2rem;
+  border-top: solid 1px #c6c1c1;
+}
+
+footer .content {
+  display: flex;
+  font-size: 1rem;
+  font-size: 1.5rem;
+  align-items: center;
+}
+footer .copyright{
+  flex-grow: 1;
+}
+footer ul {
+  display: flex;
+  list-style: none;
+}
+footer ul li {
+  padding-left: 1em;
+}
+footer ul li a {
+  text-decoration: none;
+  color: black;
+}
